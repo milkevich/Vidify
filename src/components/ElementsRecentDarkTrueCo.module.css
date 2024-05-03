@@ -1,0 +1,115 @@
+.title,
+.viewAll {
+  position: relative;
+  display: inline-block;
+}
+.title {
+  flex: 1;
+  line-height: 160%;
+  min-width: 71px;
+}
+.viewAll {
+  font-size: var(--body-large-semibold-size);
+  letter-spacing: 0.2px;
+  line-height: 26px;
+  color: var(--primary-900);
+  min-width: 62px;
+}
+.iconlyregularoutlinearrow,
+.iconlyregularoutlinearrow1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.iconlyregularoutlinearrow1 {
+  display: none;
+}
+.elementssection1Darktrue {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameIcon,
+.title1 {
+  align-self: stretch;
+  position: relative;
+}
+.frameIcon {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.title1 {
+  line-height: 29px;
+}
+.ratio169SizemediumDar {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameIcon1,
+.howToBoost {
+  align-self: stretch;
+  position: relative;
+}
+.frameIcon1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.howToBoost {
+  line-height: 29px;
+}
+.ratio169SizemediumDar1 {
+  align-self: stretch;
+  width: 240px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.autoLayoutHorizontal,
+.elementsrecentDarktrueCo {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.autoLayoutHorizontal {
+  width: 382px;
+  height: 172px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--body-xlarge-medium-size);
+}
+.elementsrecentDarktrueCo {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--h4-bold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}

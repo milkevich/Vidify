@@ -1,0 +1,152 @@
+.iconlycurvedboldhome {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+}
+.autoLayoutVertical {
+  width: 48.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  color: var(--greyscale-50);
+}
+.iconlycurvedlightcategory {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.files {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.autoLayoutVertical1 {
+  width: 48.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.iconplusComponentadditiona {
+  width: 19px;
+  height: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonpillTypeiconIcont,
+.text {
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  display: none;
+  flex-shrink: 0;
+}
+.buttonpillTypeiconIcont {
+  box-shadow: var(--button-shadow-1);
+  border-radius: var(--br-81xl);
+  background-color: var(--primary-900);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  gap: var(--gap-xs);
+  font-size: var(--body-small-regular-size);
+  color: var(--greyscale-700);
+}
+.iconlyregularoutlineheart {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.account {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.autoLayoutVertical2 {
+  width: 48.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.iconlyregularoutlineprofile {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.account1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.autoLayoutVertical3 {
+  width: 48.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.autoLayoutHorizontal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-10xs-5) var(--padding-13xl);
+  gap: var(--gap-xl);
+}
+.homeIndicatorIcon {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.activeMenuhomeDarktrueC {
+  align-self: stretch;
+  backdrop-filter: blur(20px);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  z-index: 1;
+  margin-top: -8px;
+  text-align: center;
+  font-size: var(--body-xsmall-medium-size);
+  color: var(--greyscale-500);
+  font-family: var(--body-large-semibold);
+}
+@media screen and (max-width: 383px) {
+  .autoLayoutHorizontal {
+    flex-wrap: wrap;
+  }
+}

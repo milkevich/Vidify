@@ -1,0 +1,530 @@
+.typelogoDefaultComponentl {
+  border-radius: var(--br-341xl);
+  display: none;
+  min-height: 28px;
+}
+.iconlyregularoutlinearrow,
+.typelogoDefaultComponentl {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.autoLayoutHorizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.titleSection {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 126px;
+}
+.iconlyregularoutlinenotific,
+.iconlyregularoutlinenotific1,
+.iconlyregularoutlinenotific2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.autoLayoutHorizontal1,
+.navbardefaultDarktrueCom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.autoLayoutHorizontal1 {
+  height: 28px;
+  width: 28px;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+}
+.navbardefaultDarktrueCom {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 5px 0;
+  gap: var(--gap-base);
+}
+.darktrueComponentdividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameIcon {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.dotsIcons {
+  min-width: 48px;
+}
+.date,
+.div,
+.dotsIcons {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.div {
+  text-align: center;
+  min-width: 4px;
+}
+.date {
+  min-width: 94px;
+}
+.autoLayoutHorizontal2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-5xs-5);
+  font-size: var(--body-medium-medium-size);
+}
+.autoLayoutVertical2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 131px;
+}
+.iconellipsisVComponentadd {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.darktrueComponentdividerIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameIcon1 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.div1 {
+  min-width: 66px;
+}
+.date1,
+.div1,
+.div2 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.div2 {
+  text-align: center;
+  min-width: 4px;
+}
+.date1 {
+  min-width: 94px;
+}
+.autoLayoutHorizontal3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  gap: 7px;
+  font-size: var(--body-medium-medium-size);
+}
+.autoLayoutVertical3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 131px;
+}
+.iconellipsisVComponentadd1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.darktrueComponentdividerIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameIcon2 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.div3 {
+  min-width: 66px;
+}
+.date2,
+.div3,
+.div4 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.div4 {
+  text-align: center;
+  min-width: 4px;
+}
+.date2 {
+  min-width: 83px;
+}
+.autoLayoutHorizontal4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 34px 0 0;
+  gap: var(--gap-5xs-5);
+  font-size: var(--body-medium-medium-size);
+}
+.autoLayoutVertical4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 131px;
+}
+.iconellipsisVComponentadd2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.darktrueComponentdividerIcon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameIcon3 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.div5 {
+  min-width: 68px;
+}
+.date3,
+.div5,
+.div6 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.div6 {
+  text-align: center;
+  min-width: 4px;
+}
+.date3 {
+  min-width: 31px;
+}
+.autoLayoutHorizontal5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-65xl) 0 0;
+  gap: var(--gap-5xs-5);
+  font-size: var(--body-medium-medium-size);
+}
+.autoLayoutVertical5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 131px;
+}
+.iconellipsisVComponentadd3 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameIcon4 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.date4,
+.div7,
+.div8,
+.title4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.date4,
+.div7,
+.div8 {
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.div7 {
+  flex: 1;
+}
+.date4,
+.div8 {
+  display: inline-block;
+}
+.div8 {
+  width: 4px;
+  text-align: center;
+}
+.date4 {
+  width: 31px;
+}
+.autoLayoutHorizontal6,
+.autoLayoutVertical6 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.autoLayoutHorizontal6 {
+  align-self: stretch;
+  height: 22px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-65xl) 0 0;
+  gap: var(--gap-5xs-5);
+  font-size: var(--body-medium-medium-size);
+}
+.autoLayoutVertical6 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-xs);
+  min-width: 131px;
+}
+.iconellipsisVComponentadd4 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.darktrueComponentdividerIcon4 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.autoLayoutVertical,
+.autoLayoutVertical1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}
+.autoLayoutVertical1 {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--h5-bold-size);
+}
+.autoLayoutVertical {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--h4-bold-size);
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 76px;
+  width: 18px;
+  height: 10px;
+  object-fit: cover;
+}
+.groupIcon1 {
+  top: calc(50% - 5px);
+  right: 55.7px;
+  width: 15.3px;
+  height: 11px;
+}
+.groupIcon2 {
+  position: absolute;
+  top: calc(50% - 6px);
+  right: 23px;
+  width: 27px;
+  height: 13px;
+}
+.div9 {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: 23px;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 600;
+}
+.typestatusBarThemedarkC {
+  height: 44px;
+  width: 430px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.darkSessions {
+  width: 100%;
+  height: 932px;
+  position: relative;
+  background-color: var(--dark-dark-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 44px 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-large-semibold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}
+@media screen and (max-width: 354px) {
+  .darkSessions {
+    height: auto;
+  }
+}

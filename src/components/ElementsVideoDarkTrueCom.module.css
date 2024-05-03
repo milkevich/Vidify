@@ -1,0 +1,87 @@
+.frameIcon {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  white-space: nowrap;
+}
+.service {
+  text-shadow: 1px 0 0#1e1919, 0 1px 0#1e1919, -1px 0 0#1e1919, 0-1px 0#1e1919;
+  min-width: 48px;
+}
+.date,
+.div,
+.service {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.div {
+  text-align: center;
+  min-width: 4px;
+}
+.date {
+  min-width: 94px;
+  white-space: nowrap;
+}
+.autoLayoutHorizontal {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl) 0 0;
+  gap: var(--gap-5xs-5);
+  text-align: left;
+  font-size: var(--body-medium-medium-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}
+.autoLayoutVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-xs);
+}
+.iconellipsisVComponentadd {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.elementsvideoDarktrueCom,
+.elementsvideoDarktrueCom1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elementsvideoDarktrueCom1 {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.elementsvideoDarktrueCom {
+  align-self: stretch;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h5-bold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}

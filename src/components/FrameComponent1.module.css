@@ -1,0 +1,14 @@
+.elementsrecentDarktrueCoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h4-bold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}

@@ -1,0 +1,40 @@
+.elementsgenerateVideoCompleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 46px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonpillTypepillIconf {
+  height: 58px;
+  flex: 1;
+  max-width: 100%;
+}
+.buttonprimaryDarktrueCom,
+.darkGeneratedAiVideoIsRea {
+  background-color: var(--dark-dark-1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonprimaryDarktrueCom {
+  align-self: stretch;
+  height: 118px;
+  border-top: 1px solid var(--dark-dark-5);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-5xl) 36px;
+  max-width: 100%;
+}
+.darkGeneratedAiVideoIsRea {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 84px;
+  line-height: normal;
+  letter-spacing: normal;
+}

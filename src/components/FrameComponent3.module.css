@@ -1,0 +1,64 @@
+.typedefaultComponentavatarIcon {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  min-height: 56px;
+}
+.andrewAinsley,
+.welcomeBack {
+  align-self: stretch;
+  position: relative;
+  white-space: nowrap;
+}
+.welcomeBack {
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.andrewAinsley {
+  font-size: var(--body-xlarge-medium-size);
+  line-height: 29px;
+}
+.autoLayoutHorizontal,
+.autoLayoutVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.autoLayoutHorizontal {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.frameIcon {
+  height: 52px;
+  width: 52px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: contain;
+}
+.elementshomeNavbarDarktru,
+.elementshomeNavbarDarktruWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.elementshomeNavbarDarktru {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.elementshomeNavbarDarktruWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-medium-medium-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}
