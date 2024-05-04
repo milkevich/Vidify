@@ -130,6 +130,10 @@
   flex-shrink: 0;
 }
 .activeMenuhomeDarktrueC {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   align-self: stretch;
   backdrop-filter: blur(20px);
   background-color: var(--color-gray-100);
@@ -137,7 +141,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: var(--padding-5xs) 0 0;
+  padding: var(--padding-5xs) 0 10px;
   z-index: 1;
   margin-top: -8px;
   text-align: center;

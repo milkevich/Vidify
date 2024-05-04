@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import VideoStatus from "../components/VideoStatus";
 import ElementsGenerateVideoComple from "../components/ElementsGenerateVideoComple";
-import styles from "./DarkGeneratedAIVideoIsRea.module.css";
+import styles from "./GeneratedAIVideoIsRea.module.css";
 
 const DarkGeneratedAIVideoIsRea = () => {
   return (

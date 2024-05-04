@@ -4,9 +4,10 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-5xl) 46px;
+  padding: 0 var(--padding-5xl) 36px;
   box-sizing: border-box;
   max-width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .buttonpillTypepillIconf {
   height: 58px;
@@ -15,14 +16,17 @@
 }
 .buttonprimaryDarktrueCom,
 .darkGeneratedAiVideoIsRea {
-  background-color: var(--dark-dark-1);
+  background-color: var(--main-bg-color);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .buttonprimaryDarktrueCom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   align-self: stretch;
-  height: 118px;
+  height: 108px;
   border-top: 1px solid var(--dark-dark-5);
   box-sizing: border-box;
   flex-direction: row;

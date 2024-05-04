@@ -5,10 +5,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import DarkHome from "./pages/DarkHome";
-import DarkGeneratedAIVideoIsRea from "./pages/DarkGeneratedAIVideoIsRea";
-import DarkEditVideo from "./pages/DarkEditVideo";
-import DarkSessions from "./pages/DarkSessions";
+import DarkHome from "./pages/Home";
+import DarkGeneratedAIVideoIsRea from "./pages/GeneratedAIVideoIsRea";
+import DarkEditVideo from "./pages/EditVideo";
+import DarkSessions from "./pages/Sessions";
 
 function App() {
   const action = useNavigationType();

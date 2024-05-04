@@ -1,28 +1,9 @@
 import { Button } from "@mui/material";
-import styles from "./DarkEditVideo.module.css";
+import styles from "./EditVideo.module.css";
 
 const DarkEditVideo = () => {
   return (
     <div className={styles.darkEditVideo}>
-      <header className={styles.typestatusBarThemedarkC}>
-        <div className={styles.div}>9:41</div>
-        <div className={styles.typestatusBarThemedarkCInner}>
-          <div className={styles.frameParent}>
-            <div className={styles.groupWrapper}>
-              <img className={styles.groupIcon} alt="" src="/group@2x.png" />
-            </div>
-            <div className={styles.groupContainer}>
-              <img className={styles.groupIcon1} alt="" src="/group-1@2x.png" />
-            </div>
-            <img
-              className={styles.groupIcon2}
-              loading="lazy"
-              alt=""
-              src="/group-2.svg"
-            />
-          </div>
-        </div>
-      </header>
       <main className={styles.autoLayoutVertical}>
         <section className={styles.statefilledDarktrueCompo}>
           <div className={styles.autoLayoutHorizontal}>
@@ -53,12 +34,13 @@ const DarkEditVideo = () => {
                 sx={{
                   textTransform: "none",
                   color: "#fff",
-                  fontSize: "12",
+                  fontSize: "12px",
                   background: "#235dff",
                   borderRadius: "100px",
                   "&:hover": { background: "#235dff" },
                   width: 85,
                   height: 39,
+                  fontWeight: "600",
                 }}
               >
                 Generate

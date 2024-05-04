@@ -1,6 +1,6 @@
-import styles from "./ActiveMenuHomeDarkTrueC.module.css";
+import styles from "./ActiveMenuHome.module.css";
 
-const ActiveMenuHomeDarkTrueC = () => {
+const ActiveMenuHome = () => {
   return (
     <div className={styles.activeMenuhomeDarktrueC}>
       <div className={styles.autoLayoutHorizontal}>
@@ -50,13 +50,8 @@ const ActiveMenuHomeDarkTrueC = () => {
           <div className={styles.account1}>Account</div>
         </div>
       </div>
-      <img
-        className={styles.homeIndicatorIcon}
-        alt=""
-        src="/home-indicator.svg"
-      />
     </div>
   );
 };
 
-export default ActiveMenuHomeDarkTrueC;
+export default ActiveMenuHome;

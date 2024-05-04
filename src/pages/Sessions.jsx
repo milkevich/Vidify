@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import ElementsVideoDarkTrueCom from "../components/ElementsVideoDarkTrueCom";
-import styles from "./DarkSessions.module.css";
+import styles from "./Sessions.module.css";
 
 const DarkSessions = () => {
+  const navigate = useNavigate()
+
   return (
     <div className={styles.darkSessions}>
       <main className={styles.autoLayoutVertical}>
@@ -17,6 +20,9 @@ const DarkSessions = () => {
               loading="lazy"
               alt=""
               src="/iconlyregularoutlinearrow--left.svg"
+              onClick={() => {
+                navigate(-1)
+              }}
             />
           </div>
           <b className={styles.titleSection}>June 16th 2024</b>
@@ -152,28 +158,6 @@ const DarkSessions = () => {
               src="/iconellipsisv-componentadditional-icons1.svg"
             />
           </div>
-          <div className={styles.elementsvideoDarktrueCom4}>
-            <img
-              className={styles.frameIcon4}
-              loading="lazy"
-              alt=""
-              src="/frame-41@2x.png"
-            />
-            <div className={styles.autoLayoutVertical6}>
-              <b className={styles.title4}>clip 21</b>
-              <div className={styles.autoLayoutHorizontal6}>
-                <div className={styles.div7}>back hand</div>
-                <div className={styles.div8}>•</div>
-                <div className={styles.date4}>Isner</div>
-              </div>
-            </div>
-            <img
-              className={styles.iconellipsisVComponentadd4}
-              loading="lazy"
-              alt=""
-              src="/iconellipsisv-componentadditional-icons1.svg"
-            />
-          </div>
           <img
             className={styles.darktrueComponentdividerIcon4}
             alt=""
@@ -181,12 +165,6 @@ const DarkSessions = () => {
           />
         </section>
       </main>
-      <div className={styles.typestatusBarThemedarkC}>
-        <img className={styles.groupIcon} alt="" src="/group@2x.png" />
-        <img className={styles.groupIcon1} alt="" src="/group-1@2x.png" />
-        <img className={styles.groupIcon2} alt="" src="/group-2.svg" />
-        <div className={styles.div9}>9:41</div>
-      </div>
     </div>
   );
 };

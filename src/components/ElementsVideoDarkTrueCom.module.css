@@ -49,20 +49,21 @@
   font-family: var(--body-large-semibold);
 }
 .autoLayoutVertical {
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: var(--padding-xl) 0;
   gap: var(--gap-xs);
+  max-width: 170px;
 }
 .iconellipsisVComponentadd {
   height: 28px;
   width: 28px;
-  position: relative;
+  position: absolute;
+  right: 15px;
   overflow: hidden;
   flex-shrink: 0;
+  justify-content: end;
 }
 .elementsvideoDarktrueCom,
 .elementsvideoDarktrueCom1 {
@@ -81,6 +82,7 @@
   align-self: stretch;
   align-items: flex-start;
   text-align: left;
+  flex-direction: column;
   font-size: var(--h5-bold-size);
   color: var(--others-white);
   font-family: var(--body-large-semibold);

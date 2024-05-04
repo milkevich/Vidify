@@ -505,11 +505,10 @@
   max-width: 100%;
 }
 .darkSessions {
+  border:1px solid rgba(0, 0, 0, 0);
   width: 100%;
-  height: 932px;
   position: relative;
-  background-color: var(--dark-dark-1);
-  overflow: hidden;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -522,6 +521,7 @@
   font-size: var(--body-large-semibold-size);
   color: var(--others-white);
   font-family: var(--body-large-semibold);
+  border: none;
 }
 @media screen and (max-width: 354px) {
   .darkSessions {

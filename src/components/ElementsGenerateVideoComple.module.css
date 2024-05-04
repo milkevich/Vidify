@@ -2,6 +2,7 @@
   height: 60px;
   width: 60px;
   position: relative;
+  margin-top: -40px;
 }
 .iconlysharpboldtickSquareWrapper {
   align-self: stretch;
