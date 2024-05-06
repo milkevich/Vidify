@@ -19,21 +19,27 @@ const AnalyticsContainer = () => {
     }, [obj]);
     
     const traverseAndSetHandPositions = (node) => {
+      console.log("Traversing node:", node.name || "Unnamed node"); 
+      
       node.traverse((child) => {
+        console.log("Child name:", child.name || "Unnamed child"); // Log the name of each child or indicate if it's unnamed
+        
+        // Check if the current child node represents the left hand
         if (child.name === "KTF.L") {
-          setHandPosition(leftHandRef, new THREE.Vector3(-2, 0, 0), child);
-        } else if (child.name === "KTF.R") {
-          setHandPosition(rightHandRef, new THREE.Vector3(2, 0, 0), child);
+          console.log("Found left hand node:", child);
+          // Set the position of the left hand
+          // For now, let's just log a message to confirm that the position setting logic is reached
+          console.log("Setting position for left hand...");
+        }
+        
+        // Check if the current child node represents the right hand
+        if (child.name === "KTF.R") {
+          console.log("Found right hand node:", child);
+          // Set the position of the right hand
+          // For now, let's just log a message to confirm that the position setting logic is reached
+          console.log("Setting position for right hand...");
         }
       });
-    };
-    
-    const setHandPosition = (handRef, position, parent) => {
-      if (handRef.current) {
-        const worldPosition = new THREE.Vector3();
-        worldPosition.setFromMatrixPosition(parent.matrixWorld);
-        handRef.current.position.copy(worldPosition.add(position));
-      }
     };
     
     return (
