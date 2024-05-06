@@ -19,21 +19,15 @@ const AnalyticsContainer = () => {
   
     const traverseAndFindHands = (node) => {
       node.children.forEach(child => {
-        // Check if the child is the left hand mesh
+
         if (child.name === "LeftHand") {
-          // Assign a ref to the left hand mesh
           leftHandRef.current = child;
-          // Set the position of the left hand
-          leftHandRef.current.position.set(-2, 0, 0); // Example position for the left hand
+          leftHandRef.current.position.set(-2, 0, 0); 
         }
-        // Check if the child is the right hand mesh
         else if (child.name === "RightHand") {
-          // Assign a ref to the right hand mesh
           rightHandRef.current = child;
-          // Set the position of the right hand
-          rightHandRef.current.position.set(2, 0, 0); // Example position for the right hand
+          rightHandRef.current.position.set(2, 0, 0); 
         }
-        // If the child has children, recursively traverse them
         if (child.children.length > 0) {
           traverseAndFindHands(child);
         }
@@ -53,7 +47,7 @@ const AnalyticsContainer = () => {
           <ambientLight intensity={0.1} />
         <directionalLight color="white" intensity={0.5} position={[5, 10, 5]} />
         <directionalLight color="white" intensity={0.5} position={[-5, -10, -5]} />
-          <mesh scale={0.3} position={[0, -3, 0]}>
+          <mesh scale={1.2} position={[0, 0, 0]}>
           <Model/>
         </mesh>
         <OrbitControls
