@@ -57,7 +57,7 @@ const AnalyticsContainer = () => {
             <ambientLight intensity={0.1} />
             <directionalLight color="white" intensity={0.5} position={[5, 10, 5]} />
             <directionalLight color="white" intensity={0.5} position={[-5, -10, -5]} />
-            <mesh scale={1.2} position={[0, -2.8, 0]}>
+            <mesh scale={1} position={[0, -2.8, 0]}>
               <Model/>
             </mesh>
             <OrbitControls
