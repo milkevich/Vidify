@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import styles from "./ElementsRecentDarkTrueCo.module.css";
+import styles from "./ElementsRecent.module.css";
 
-const ElementsRecentDarkTrueCo = ({
+const ElementsRecent = ({
   title,
   frame,
   title1,
@@ -59,4 +59,4 @@ const ElementsRecentDarkTrueCo = ({
   );
 };
 
-export default ElementsRecentDarkTrueCo;
+export default ElementsRecent;

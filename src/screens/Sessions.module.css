@@ -466,6 +466,7 @@
   gap: var(--gap-5xl);
   text-align: center;
   font-size: var(--h4-bold-size);
+  border: none;
 }
 .groupIcon,
 .groupIcon1 {
@@ -505,23 +506,22 @@
   max-width: 100%;
 }
 .darkSessions {
-  border:1px solid rgba(0, 0, 0, 0);
+  border: none;
+  min-height: 100vh;
   width: 100%;
   position: relative;
-  background-color: var(--main-bg-color);
+  background-color: var(--dark-dark-1 );
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 44px 0 0;
-  box-sizing: border-box;
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
   font-size: var(--body-large-semibold-size);
   color: var(--others-white);
   font-family: var(--body-large-semibold);
-  border: none;
 }
 @media screen and (max-width: 354px) {
   .darkSessions {

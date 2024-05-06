@@ -1,13 +1,13 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import ElementsRecentDarkTrueCo from "./ElementsRecentDarkTrueCo";
+import ElementsRecentDarkTrueCo from "./ElementsRecent";
 import styles from "./FrameComponent1.module.css";
 
 const FrameComponent1 = () => {
   const navigate = useNavigate();
 
   const onFrameImageClick = useCallback(() => {
-    navigate("/23-dark-sessions");
+    navigate("/23-sessions");
   }, [navigate]);
 
   return (

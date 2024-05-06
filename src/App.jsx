@@ -5,10 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import DarkHome from "./pages/Home";
-import DarkGeneratedAIVideoIsRea from "./pages/GeneratedAIVideoIsRea";
-import DarkEditVideo from "./pages/EditVideo";
-import DarkSessions from "./pages/Sessions";
+import Home from "./screens/Home";
+import Sessions from "./screens/Sessions";
+import ViewClipAnalytics from "./screens/ViewClipAnalytics";
 
 function App() {
   const action = useNavigationType();
@@ -60,13 +59,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<DarkHome />} />
-      <Route
-        path="/41-dark-generated-ai-video-is-ready"
-        element={<DarkGeneratedAIVideoIsRea />}
-      />
-      <Route path="/39-dark-edit-video" element={<DarkEditVideo />} />
-      <Route path="/23-dark-sessions" element={<DarkSessions />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/23-sessions" element={<Sessions />} />
+      <Route path="/41-view-clip-analytics" element={<ViewClipAnalytics />} />
     </Routes>
   );
 }

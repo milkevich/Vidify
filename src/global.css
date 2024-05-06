@@ -4,8 +4,10 @@
 body {
   margin: 0;
   line-height: normal;
+  border: none;
 }
 :root {
+  border: none;
   /* fonts */
   --body-large-semibold: Urbanist;
 
@@ -20,21 +22,22 @@ body {
   --h5-bold-size: 20px;
 
   /* Colors */
-  --greyscale-50: #fafafa;
   --dark-dark-3: #1f222a;
-  --main-bg-color: #181a20;
+  --dark-dark-1 : #181a20;
   --color-gray-200: rgba(9, 16, 29, 0.04);
   --color-gray-300: rgba(24, 26, 32, 0.75);
   --color-gray-100: rgba(24, 26, 32, 0.85);
   --others-white: #fff;
-  --greyscale-500: #9e9e9e;
   --primary-900: #235dff;
-  --greyscale-700: #616161;
   --dark-dark-5: #35383f;
+  --greyscale-50: #fafafa;
   --greyscale-100: #f5f5f5;
+  --greyscale-500: #9e9e9e;
+  --greyscale-700: #616161;
   --color-whitesmoke-100: rgba(240, 240, 240, 0.75);
+  --color-forestgreen: #02b349;
 
-  background-color: var(--main-bg-color);
+  background-color: var(--dark-dark-1 );
 
   /* Gaps */
   --gap-5xl: 24px;
@@ -77,6 +80,9 @@ body {
   --br-9xs: 4px;
   --br-981xl: 1000px;
   --br-341xl: 360px;
+  --br-xs: 12px;
+  --br-6xl: 25px;
+  --br-7xs: 6px;
 
   --button-shadow-1: 4px 8px 24px rgba(35, 93, 255, 0.25);
 }
@@ -88,7 +94,7 @@ body {
 .light {
   --greyscale-50: #fafafa;
   --dark-dark-3: #1f222a;
-  --main-bg-color: #ffffff;
+  --dark-dark-1 : #ffffff;
   --color-gray-200: rgba(9, 16, 29, 0.04);
   --color-gray-300: rgba(24, 26, 32, 0.75);
   --color-gray-100: rgba(24, 26, 32, 0.85);

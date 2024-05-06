@@ -1,7 +1,7 @@
 import { useCallback } from "react";
-import styles from "./ElementsVideoDarkTrueCom.module.css";
+import styles from "./ElementsVideo.module.css";
 
-const ElementsVideoDarkTrueCom = () => {
+const ElementsVideo = () => {
   const onElementsVideoDarkTrueComClick = useCallback(() => {
     // Please sync "39_Dark_view clip load" to the project
   }, []);
@@ -39,4 +39,4 @@ const ElementsVideoDarkTrueCom = () => {
   );
 };
 
-export default ElementsVideoDarkTrueCom;
+export default ElementsVideo;

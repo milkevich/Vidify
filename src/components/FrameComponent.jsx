@@ -1,4 +1,4 @@
-import ElementsRecentDarkTrueCo from "./ElementsRecentDarkTrueCo";
+import ElementsRecentDarkTrueCo from "./ElementsRecent";
 import styles from "./FrameComponent.module.css";
 
 const FrameComponent = () => {

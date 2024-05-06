@@ -1,0 +1,370 @@
+.clip1 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  min-width: 39px;
+}
+.iconlycurvedoutlineedit {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.autoLayoutHorizontal1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0;
+  gap: var(--gap-5xs);
+}
+.autoLayoutVertical1 {
+  align-self: stretch;
+  flex: 1;
+}
+.autoLayoutVertical2 {
+  height: 39px;
+  flex: 1;
+}
+.iconellipsisVComponentadd {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.autoLayoutHorizontal,
+.autoLayoutHorizontal2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.autoLayoutHorizontal2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0;
+  gap: var(--gap-5xs);
+}
+.autoLayoutHorizontal {
+  height: 48px;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--h5-bold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}
+.darktrueComponentdividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconsceneComponentaddition {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.d {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+}
+.autoLayoutVertical4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 94px;
+}
+.iconaspectRatio2Component {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.analysis {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.autoLayoutVertical5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 94px;
+}
+.iconlyregularoutlinescan {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.d1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+}
+.autoLayoutVertical6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 94px;
+}
+.iconlyregularoutlinevoice {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: contain;
+}
+.voice {
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.autoLayoutVertical7 {
+  width: 60.3px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.iconlyregularoutlineimage3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: contain;
+}
+.backgro {
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.autoLayoutVertical8 {
+  width: 60.3px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.iconmusic2Componentadditi {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.music {
+  align-self: stretch;
+  height: 19px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+}
+.autoLayoutVertical9 {
+  width: 60.3px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.autoLayoutHorizontal3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.emptyIcon {
+  border-radius: var(--br-7xs);
+  object-fit: cover;
+}
+.darktrueComponentdividerIcon1,
+.emptyIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.script {
+  height: 29px;
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 163px;
+}
+.iconplayFilledComponentad {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.autoLayoutHorizontal5,
+.autoLayoutVertical11,
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.autoLayoutHorizontal5 {
+  width: 95px;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.autoLayoutVertical11 {
+  height: 31px;
+  border-radius: var(--br-81xl);
+  background-color: var(--dark-dark-5);
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body-small-semibold-size);
+  color: var(--others-white);
+}
+.autoLayoutHorizontal4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.label {
+  align-self: stretch;
+  height: 29px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 600;
+  display: none;
+}
+.artificialIntelligenceAi,
+.asWeLook,
+.blankLine,
+.blankLine1,
+.fromAutonomousVehicles {
+  margin: 0;
+}
+.loremIpsum {
+  height: 364px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.autoLayoutHorizontal6,
+.autoLayoutVertical10,
+.inputFormtextAreaStatefi {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.autoLayoutHorizontal6 {
+  border-radius: var(--br-xs);
+  background-color: var(--dark-dark-3);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--body-large-semibold-size);
+}
+.autoLayoutVertical10,
+.inputFormtextAreaStatefi {
+  flex-direction: column;
+}
+.inputFormtextAreaStatefi {
+  display: flex;
+  gap: var(--gap-5xs);
+  color: var(--others-white);
+}
+.autoLayoutVertical10 {
+  display: none;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-xlarge-medium-size);
+  color: var(--greyscale-50);
+}
+.autoLayoutVertical3 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.autoLayoutVertical,
+.autoLayoutVertical3,
+.statefilledDarktrueCompo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.statefilledDarktrueCompo {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.autoLayoutVertical {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body-small-semibold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+}

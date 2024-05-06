@@ -1,0 +1,135 @@
+.leftBar {
+  border-radius: var(--br-xs);
+  background-color: var(--dark-dark-1);
+}
+.chartBars,
+.leftBar,
+.rightBar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rightBar {
+  border-radius: var(--br-xs);
+  background-color: var(--dark-dark-1);
+  z-index: 1;
+}
+.hipsRotation {
+  height: 32px;
+  width: 115px;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 160%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.scoreBackground {
+  height: 12px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-forestgreen);
+  z-index: 2;
+}
+.perfect {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 10px;
+  display: inline-block;
+  min-width: 26px;
+  z-index: 3;
+}
+.perfectWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  margin-left: -46px;
+}
+.scoreContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.chartLabels,
+.chartScore,
+.scoreContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.chartScore {
+  width: 67px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--body-small-regular-size);
+}
+.chartLabels {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.graphComponentChild {
+  width: 156px;
+  height: 44.7px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 28.8px;
+  left: 37.6px;
+  z-index: 3;
+}
+.frameChild {
+  height: 53.6px;
+  width: 223.7px;
+  position: relative;
+  z-index: 2;
+}
+.graphComponentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs-4) 0 var(--padding-9xs);
+}
+.graphComponent {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-11xs-7);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--body-large-semibold-size);
+  color: var(--others-white);
+  font-family: var(--body-large-semibold);
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: var(--padding-xl);
+  border-radius: 10px;
+}
+@media screen and (max-width: 332px) {
+  .graphComponent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 319px) {
+  .chartLabels {
+    flex-wrap: wrap;
+  }
+}
