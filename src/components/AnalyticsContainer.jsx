@@ -1,7 +1,7 @@
 import GraphComponent from "./GraphComponent";
 import styles from "./AnalyticsContainer.module.css";
 import { Canvas, useLoader } from "@react-three/fiber";
-import { FBXLoader, OBJLoader } from "three/examples/jsm/Addons.js";
+import { OBJLoader } from "three/examples/jsm/Addons.js";
 import { useEffect, useRef } from "react";
 import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
@@ -9,7 +9,7 @@ import * as THREE from 'three';
 const AnalyticsContainer = () => {
 
   function Model() {
-    const obj = useLoader(FBXLoader, 'https://raw.githubusercontent.com/milkevich/Vidify/main/src/Skeleton.fbx');
+    const obj = useLoader(OBJLoader, 'https://raw.githubusercontent.com/milkevich/Vidify/main/src/Skeleton.obj');
     const leftHandRef = useRef();
     const rightHandRef = useRef();
   
