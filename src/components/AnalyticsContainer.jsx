@@ -1,7 +1,7 @@
 import GraphComponent from "./GraphComponent";
 import styles from "./AnalyticsContainer.module.css";
 import { Canvas, useLoader } from "@react-three/fiber";
-import { OBJLoader } from "three/examples/jsm/Addons.js";
+import { GLTFLoader, OBJLoader } from "three/examples/jsm/Addons.js";
 import { useEffect, useRef } from "react";
 import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
@@ -9,7 +9,7 @@ import * as THREE from 'three';
 const AnalyticsContainer = () => {
 
   function Model() {
-    const obj = useLoader(OBJLoader, 'https://raw.githubusercontent.com/milkevich/Vidify/main/src/Skeleton.obj');
+    const obj = useLoader(GLTFLoader, 'https://raw.githubusercontent.com/milkevich/Vidify/main/src/Skeleton.gltf');
     const leftHandRef = useRef();
     const rightHandRef = useRef();
   
@@ -19,7 +19,7 @@ const AnalyticsContainer = () => {
     }, [obj]);
     
     const traverseAndSetHandPositions = (node) => {
-      console.log("Traversing node:", node.name || "Unnamed node"); 
+      console.log("Traversing node:", node.name || "Unnamed node"); // Log the name of the current node or indicate if it's unnamed
       
       node.traverse((child) => {
         console.log("Child name:", child.name || "Unnamed child"); // Log the name of each child or indicate if it's unnamed
@@ -57,7 +57,7 @@ const AnalyticsContainer = () => {
             <ambientLight intensity={0.1} />
             <directionalLight color="white" intensity={0.5} position={[5, 10, 5]} />
             <directionalLight color="white" intensity={0.5} position={[-5, -10, -5]} />
-            <mesh scale={1} position={[0, -2.8, 0]}>
+            <mesh scale={1.2} position={[0, -2.8, 0]}>
               <Model/>
             </mesh>
             <OrbitControls
