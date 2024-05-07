@@ -14,13 +14,13 @@ const AnalyticsContainer = () => {
   
     useEffect(() => {
       if (scene) {
-        const leftHand = scene.getObjectByName("handL");
-        const rightHand = scene.getObjectByName("handR");
+        const lowerLeftHand = scene.getObjectByName("handL");
+        const lowerRightHand = scene.getObjectByName("handR");
   
-        if (leftHand && rightHand) {
-          leftHand.position.set(0, 1, 0); 
+        if (lowerLeftHand && lowerRightHand) {
+          lowerLeftHand.position.set(0, 1, 0); 
   
-          rightHand.position.set(0, 1, 0); 
+          lowerRightHand.position.set(0, 1, 0); 
         }
       }
     }, [scene]);
