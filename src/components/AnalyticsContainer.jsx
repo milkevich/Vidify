@@ -336,7 +336,7 @@ const skeletonArray = [
 ]
 
 const AnalyticsContainer = () => {
-  const [posCount, setPosCount] = useState(10)
+  const [posCount, setPosCount] = useState(1)
 
   function Model() {
     const { scene } = useGLTF('https://raw.githubusercontent.com/milkevich/Vidify/main/src/Skeleton.glb');
@@ -363,24 +363,38 @@ const AnalyticsContainer = () => {
             const rwri = scene.getObjectByName('forearmR');
         
             if (root && rhip && rkne && rank && lhip && lkne && lank && belly && neck && nose && head && lsho && lelb && lwri && rsho && relb && rwri) {
-              root.position.set(skeletonArray[posCount][0][0], skeletonArray[posCount][0][1], skeletonArray[posCount][0][2]);
-              rhip.position.set(skeletonArray[posCount][1][0], skeletonArray[posCount][1][1], skeletonArray[posCount][1][2]);
-              rkne.position.set(skeletonArray[posCount][2][0], skeletonArray[posCount][2][1], skeletonArray[posCount][2][2]);
-              rank.position.set(skeletonArray[posCount][3][0], skeletonArray[posCount][3][1], skeletonArray[posCount][3][2]);
-              lhip.position.set(skeletonArray[posCount][4][0], skeletonArray[posCount][4][1], skeletonArray[posCount][4][2]);
-              lkne.position.set(skeletonArray[posCount][5][0], skeletonArray[posCount][5][1], skeletonArray[posCount][5][2]);
-              lank.position.set(skeletonArray[posCount][6][0], skeletonArray[posCount][6][1], skeletonArray[posCount][6][2]);
-              belly.position.set(skeletonArray[posCount][7][0], skeletonArray[posCount][7][1], skeletonArray[posCount][7][2]);
-              neck.position.set(skeletonArray[posCount][8][0], skeletonArray[posCount][8][1], skeletonArray[posCount][8][2]);
-              nose.position.set(skeletonArray[posCount][9][0], skeletonArray[posCount][9][1], skeletonArray[posCount][9][2]);
-              head.position.set(skeletonArray[posCount][10][0], skeletonArray[posCount][10][1], skeletonArray[posCount][10][2]);
-              lsho.position.set(skeletonArray[posCount][11][0], skeletonArray[posCount][11][1], skeletonArray[posCount][11][2]);
-              lelb.position.set(skeletonArray[posCount][12][0], skeletonArray[posCount][12][1], skeletonArray[posCount][12][2]);
-              lwri.position.set(skeletonArray[posCount][13][0], skeletonArray[posCount][13][1], skeletonArray[posCount][13][2]);
-              rsho.position.set(skeletonArray[posCount][14][0], skeletonArray[posCount][14][1], skeletonArray[posCount][14][2]);
-              relb.position.set(skeletonArray[posCount][15][0], skeletonArray[posCount][15][1], skeletonArray[posCount][15][2]);
-              rwri.position.set(skeletonArray[posCount][16][0], skeletonArray[posCount][16][1], skeletonArray[posCount][16][2]);
-            }
+              const originalPositions = [
+                  root.position, rhip.position, rkne.position, rank.position, lhip.position,
+                  lkne.position, lank.position, belly.position, neck.position, nose.position,
+                  head.position, lsho.position, lelb.position, lwri.position, rsho.position,
+                  relb.position, rwri.position
+              ];
+          
+              originalPositions.forEach((position, index) => {
+                  const original = new THREE.Vector3().copy(position);
+                  const offset = new THREE.Vector3(...skeletonArray[posCount][index]);
+                  position.add(original, offset);
+              });
+          }
+          // if (root && rhip && rkne && rank && lhip && lkne && lank && belly && neck && nose && head && lsho && lelb && lwri && rsho && relb && rwri) {
+          //   root.position.set(skeletonArray[posCount][0][0], skeletonArray[posCount][0][1], skeletonArray[posCount][0][2]);
+          //   rhip.position.set(skeletonArray[posCount][1][0], skeletonArray[posCount][1][1], skeletonArray[posCount][1][2]);
+          //   rkne.position.set(skeletonArray[posCount][2][0], skeletonArray[posCount][2][1], skeletonArray[posCount][2][2]);
+          //   rank.position.set(skeletonArray[posCount][3][0], skeletonArray[posCount][3][1], skeletonArray[posCount][3][2]);
+          //   lhip.position.set(skeletonArray[posCount][4][0], skeletonArray[posCount][4][1], skeletonArray[posCount][4][2]);
+          //   lkne.position.set(skeletonArray[posCount][5][0], skeletonArray[posCount][5][1], skeletonArray[posCount][5][2]);
+          //   lank.position.set(skeletonArray[posCount][6][0], skeletonArray[posCount][6][1], skeletonArray[posCount][6][2]);
+          //   belly.position.set(skeletonArray[posCount][7][0], skeletonArray[posCount][7][1], skeletonArray[posCount][7][2]);
+          //   neck.position.set(skeletonArray[posCount][8][0], skeletonArray[posCount][8][1], skeletonArray[posCount][8][2]);
+          //   nose.position.set(skeletonArray[posCount][9][0], skeletonArray[posCount][9][1], skeletonArray[posCount][9][2]);
+          //   head.position.set(skeletonArray[posCount][10][0], skeletonArray[posCount][10][1], skeletonArray[posCount][10][2]);
+          //   lsho.position.set(skeletonArray[posCount][11][0], skeletonArray[posCount][11][1], skeletonArray[posCount][11][2]);
+          //   lelb.position.set(skeletonArray[posCount][12][0], skeletonArray[posCount][12][1], skeletonArray[posCount][12][2]);
+          //   lwri.position.set(skeletonArray[posCount][13][0], skeletonArray[posCount][13][1], skeletonArray[posCount][13][2]);
+          //   rsho.position.set(skeletonArray[posCount][14][0], skeletonArray[posCount][14][1], skeletonArray[posCount][14][2]);
+          //   relb.position.set(skeletonArray[posCount][15][0], skeletonArray[posCount][15][1], skeletonArray[posCount][15][2]);
+          //   rwri.position.set(skeletonArray[posCount][16][0], skeletonArray[posCount][16][1], skeletonArray[posCount][16][2]);
+          // }
           }
         }, [scene]);
         
@@ -410,7 +424,6 @@ const AnalyticsContainer = () => {
             />
           </Canvas>
         </div>
-        <SkeletonViewer />
         <div className={styles.navigationRight}>
           <div className={styles.navigationRightContent}>
             <div className={styles.autoLayoutVertical}></div>
