@@ -375,51 +375,49 @@ const AnalyticsContainer = () => {
           "forearmR"
         ];
 
-        if (rootBone && !originalPose) {
-          const originalPoseArray = boneNames.map((boneName) => {
-            const bone = scene.getObjectByName(boneName);
-            return bone.rotation.clone(); 
-          });
-          setOriginalPose(originalPoseArray);
-        }
+        // if (rootBone && !originalPose) {
+        //   const originalPoseArray = boneNames.map((boneName) => {
+        //     const bone = scene.getObjectByName(boneName);
+        //     return bone.rotation.clone(); 
+        //   });
+        //   setOriginalPose(originalPoseArray);
+        // }
         
-        if (rootBone && originalPose) {
-          boneNames.forEach((boneName, index) => {
-            const bone = scene.getObjectByName(boneName);
-            const originalRotation = originalPose[index];
-            const rotationOffset = new THREE.Euler(
-              ...skeletonArray[posCount][index] 
-            );
-            bone.rotation.set(
-              originalRotation.x + rotationOffset.x,
-              originalRotation.y + rotationOffset.y,
-              originalRotation.z + rotationOffset.z
-            ); 
-          });
-        }
+        // if (rootBone && originalPose) {
+        //   boneNames.forEach((boneName, index) => {
+        //     const bone = scene.getObjectByName(boneName);
+        //     const originalRotation = originalPose[index];
+        //     const rotationOffset = new THREE.Euler(
+        //       ...skeletonArray[posCount][index] 
+        //     );
+        //     bone.rotation.set(
+        //       originalRotation.x + rotationOffset.x,
+        //       originalRotation.y + rotationOffset.y,
+        //       originalRotation.z + rotationOffset.z
+        //     ); 
+        //   });
+        // }
         
-        
+//       // func for position
+      if (rootBone && !originalPose) {
+        const originalPoseArray = boneNames.map((boneName) => {
+          const bone = scene.getObjectByName(boneName);
+          return bone.position.clone();
+        });
+        setOriginalPose(originalPoseArray);
       }
-      
-      // func for position
-      // if (rootBone && !originalPose) {
-      //   const originalPoseArray = boneNames.map((boneName) => {
-      //     const bone = scene.getObjectByName(boneName);
-      //     return bone.position.clone();
-      //   });
-      //   setOriginalPose(originalPoseArray);
-      // }
 
-      // if (rootBone && originalPose) {
-      //   boneNames.forEach((boneName, index) => {
-      //     const bone = scene.getObjectByName(boneName);
-      //     const originalPosition = originalPose[index];
-      //     const offset = new THREE.Vector3(
-      //       ...skeletonArray[posCount][index]
-      //     );
-      //     bone.position.copy(originalPosition).add(offset);
-      //   });
-      // }
+      if (rootBone && originalPose) {
+        boneNames.forEach((boneName, index) => {
+          const bone = scene.getObjectByName(boneName);
+          const originalPosition = originalPose[index];
+          const offset = new THREE.Vector3(
+            ...skeletonArray[posCount][index]
+          );
+          bone.position.copy(originalPosition).add(offset);
+        });
+      }
+    }
     }, [scene, posCount, originalPose]);
 
     if (!scene) return null;
