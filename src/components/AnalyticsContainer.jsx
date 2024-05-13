@@ -355,7 +355,7 @@ const AnalyticsContainer = () => {
 
     useEffect(() => {
       if (scene) {
-        const rootBone = scene.getObjectByName("body");
+        const rootBone = scene.getObjectByName("root");
         const boneNames = [
           "thighR",
           "shinR",
@@ -434,7 +434,7 @@ const AnalyticsContainer = () => {
           <Canvas style={{ width: "100%", height: "250px", backgroundColor: "var(--dark-dark-3)", borderRadius: "var(--br-xs)" }}>
             <directionalLight color="white" intensity={1} position={[5, 10, 5]} />
             <directionalLight color="white" intensity={1} position={[-5, -10, -5]} />
-            <mesh scale={0.9} position={[0, -2.8, 0]}>
+            <mesh scale={4} position={[0, -2.8, 0]}>
               <Model />
             </mesh>
             <OrbitControls
